@@ -1,0 +1,74 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img width="40" alt="Angular Logo"
+    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
+  <span>Cartelera TvShows</span>
+  <div class="spacer"></div>
+</div>
+
+<div class="content" role="main">
+
+  <h1 class="letras">Programas disponibles</h1>
+  <!-- Input de búsqueda -->
+
+  <div class="search-container">
+    <input type="text" placeholder="Filtrar por nombre..." [(ngModel)]="searchTerm" (ngModelChange)="filterItems()"
+      class="search-input" />
+  </div>
+
+  <div class="container">
+
+    <div class="card" *ngIf="filteredData.length === 0">
+      <div class="card-image">
+        <img [src]="'/assets/datanot.webp'" alt="Image">
+      </div>
+      <div class="card-content">
+        <p class="card-name">No hay recursos por el momento</p>
+      </div>
+    </div>
+
+    <div class="card" *ngFor="let item of filteredData" (click)="card(item.id)"
+      [ngClass]="{ 'card-content': ban, 'selected': item.id === Idd }">
+      <div class="card-image">
+        <img [src]="'/assets/imagshow.webp'" alt="Image">
+      </div>
+      <div class="card-content">
+        <p class="card-id">ID: {{ item.id }}</p>
+        <p class="card-name">{{ item.name }}</p>
+        <p class="card-favorite">Favorite: {{ item.favorite ? 'Yes' : 'No' }}</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <!-- Contenido de la card -->
+      <div class="add-card" (click)="createtvshow(!modalcreate)">
+        <span class="plus-icon">+</span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div *ngIf="Idd !== 0" class="footer">
+    <div class="footer-button left-btn">
+      <button class="btn" (click)="deleteitem(Idd)">
+        <i class="fas fa-trash"></i> Delete
+      </button>
+    </div>
+    <div class="footer-button right-btn" (click)="updateview(!modalupdate)">
+      <button class="btn">
+        <i class="fas fa-edit"></i> Update
+      </button>
+    </div>
+  </div>
+
+  <app-create-tv-show [isVisible]="modalcreate" (save)="handlecreate($event)"
+    (cancel)="createcancel()"></app-create-tv-show>
+  <app-update-tv-show [isVisible]="modalupdate" [item]="currentItem" (save)="handleupdate($event)"
+    (cancel)="updatecancel()"></app-update-tv-show>
+
+
+
+
+</div>
+<router-outlet></router-outlet>
