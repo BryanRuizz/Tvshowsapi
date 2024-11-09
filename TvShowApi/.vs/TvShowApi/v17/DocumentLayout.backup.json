@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|c:\\users\\bryan.000\\documents\\github\\moviecinemaapp\\tvshowapi\\services\\tvshowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|solutionrelative:services\\tvshowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|c:\\users\\bryan.000\\documents\\github\\moviecinemaapp\\tvshowapi\\models\\itvshowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|solutionrelative:models\\itvshowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|c:\\users\\bryan.000\\documents\\github\\moviecinemaapp\\tvshowapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|c:\\users\\bryan.000\\documents\\github\\moviecinemaapp\\tvshowapi\\dtos\\updatetvshowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|solutionrelative:dtos\\updatetvshowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|c:\\users\\bryan.000\\documents\\github\\moviecinemaapp\\tvshowapi\\dtos\\createtvshowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|solutionrelative:dtos\\createtvshowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|c:\\users\\bryan.000\\documents\\github\\moviecinemaapp\\tvshowapi\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|solutionrelative:controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|c:\\users\\bryan.000\\documents\\github\\moviecinemaapp\\tvshowapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F49C1D99-697D-4E71-8207-AA6C131EF632}|TvShowApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateTVShowDto.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\DTOs\\UpdateTVShowDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateTVShowDto.cs",
+              "ToolTip": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\DTOs\\UpdateTVShowDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateTVShowDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:23:26.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITVShowService.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\Models\\ITVShowService.cs",
+              "RelativeDocumentMoniker": "Models\\ITVShowService.cs",
+              "ToolTip": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\Models\\ITVShowService.cs",
+              "RelativeToolTip": "Models\\ITVShowService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:17:42.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TVShowService.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\Services\\TVShowService.cs",
+              "RelativeDocumentMoniker": "Services\\TVShowService.cs",
+              "ToolTip": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\Services\\TVShowService.cs*",
+              "RelativeToolTip": "Services\\TVShowService.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T21:46:27.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateTVShowDto.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\DTOs\\CreateTVShowDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateTVShowDto.cs",
+              "ToolTip": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\DTOs\\CreateTVShowDto.cs",
+              "RelativeToolTip": "DTOs\\CreateTVShowDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:23:39.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T21:48:23.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TVShowController.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\Controllers\\TVShowController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TVShowController.cs",
+              "ToolTip": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\Controllers\\TVShowController.cs",
+              "RelativeToolTip": "Controllers\\TVShowController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T21:46:01.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Bryan.000\\Documents\\GitHub\\MovieCinemaapp\\TvShowApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T17:44:23.96Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
